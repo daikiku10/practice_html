@@ -98,6 +98,8 @@ img {
 
 #home {
   background-image: url(../images/shoeshine.jpg);
+  background-color: #9ba5a0;
+  background-blend-mode: overlay;
   min-height: 100vh;
 }
 
