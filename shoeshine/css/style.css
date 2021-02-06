@@ -106,3 +106,15 @@ img {
 #home .page-title {
   text-transform: none;
 }
+
+/* News
+-------------------------------------- */
+#news {
+  background-color: lightgray; /* 画像へ変更 */
+  height: 270px;
+  margin-bottom: 40px;
+}
+
+#news .page-title {
+  text-align: center;
+}
