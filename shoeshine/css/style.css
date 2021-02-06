@@ -7,7 +7,7 @@ html {
 body {
   font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
   line-height: 1.7;
-  color: #432;
+  color: #fff;
   background-color: pink; /* 付属 */
 }
 
@@ -22,7 +22,6 @@ img {
 .logo {
   width: 210px;
   margin-top: 14px;
-  background-color: white; /* 付属　*/
 }
 
 .main-nav {
@@ -38,7 +37,7 @@ img {
 }
 
 .main-nav a {
-  color: #432;
+  color: #fff;
 }
 
 .main-nav a:hover {
@@ -88,4 +87,20 @@ img {
 
 .button:hover {
   background: #0090aa;
+}
+
+/* 大きな背景画像 */
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(../images/shoeshine.jpg);
+  min-height: 100vh;
+}
+
+#home .page-title {
+  text-transform: none;
 }
