@@ -8,7 +8,6 @@ body {
   font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
   line-height: 1.7;
   color: #fff;
-  background-color: pink; /* 付属 */
 }
 
 a {
@@ -112,7 +111,7 @@ img {
 #news {
   background-image: url(../images/shoeshine-72477_1920.jpg);
   height: 270px;
-  /* margin-bottom: 40px; */
+  margin-bottom: 40px;
 }
 
 #news .page-title {
@@ -130,4 +129,23 @@ footer {
 footer p {
   color: #fff;
   font-size: 0.875rem;
+}
+
+/* 記事部分 */
+article {
+  width: 74%;
+  color: #432;
+  background-color: pink;
+}
+
+aside {
+  width: 22%;
+  color: #432;
+  background-color: lightgray;
+}
+
+.news-contents {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
