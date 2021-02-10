@@ -311,6 +311,8 @@ aside p {
 --------------------------------------- */
 #menu {
   background-image: url(../images/background-1838494_1920.jpg);
+  background-color: #9ba5a0;
+  background-blend-mode: overlay;
   min-height: 100vh;
 }
 
@@ -326,4 +328,16 @@ aside p {
 .menu-content p {
   font-size: 1.125rem;
   margin: 10px 0 0;
+}
+
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 6%;
+  margin-bottom: 50px;
+}
+
+.item p {
+  color: black;
 }
