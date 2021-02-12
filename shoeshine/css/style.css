@@ -421,3 +421,7 @@ input[type="submit"] {
   cursor: pointer;
   line-height: 1;
 }
+
+.location-info p {
+  color: black;
+}
