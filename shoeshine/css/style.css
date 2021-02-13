@@ -453,3 +453,24 @@ input[type="submit"] {
 iframe {
   width: 100%;
 }
+
+/* sns */
+#sns {
+  background: #faf7f0;
+  padding: 4% 0;
+}
+
+#sns .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sns .sub-title {
+  margin-bottom: 30px;
+  color: black;
+}
+
+.sns-box {
+  width: 30%;
+  color: black;
+}
